@@ -1,5 +1,6 @@
 @import url('reset.css');
 @import url('general.css');
+
 /* 
    ! HEADER
 */
@@ -19,6 +20,20 @@ header {width: 100%; height: 6.875rem;}
 .icon-bell {color: #fd7e14;}
 
 /* ! Sidebar Section */
+
+.sidebar {width: 10%; height: 100%; font-size: 0.9rem; background-image: url('img/sidebar-bg.png');}
+
+.sidebar a {color: var(--light_color);}
+
+.sidebar i {font-size: 1.2rem;}
+
+.menu_top {height: calc(100% - 4.375rem); overflow: hidden;}
+  
+.menu_bottom {height: 4.375rem;}
+  
+.sidebar a {width: 70%;}
+  
+.sidebar a:hover {background-color:rgba(255, 255, 255, 0.5);}
 
 /* 
    ! MAIN
@@ -48,11 +63,27 @@ header {width: 100%; height: 6.875rem;}
 /* Min width 768px */
 
 @media screen and (min-width: 768px) {
-    
+
+    /* ! Sidebar Section */
+
+    .sidebar {width: 10%;}
+
+    main {width: 90%;}
+
 }
 
 /* Min width 992px */
 
 @media screen and (min-width: 992px) {
     
+    /* ! Sidebar Section */
+
+    .sidebar {width: 10rem;}
+
+    .sidebar i {margin-right: .625rem;}
+
+    main {width: calc(100% - 10rem);}
+
+
+
 }
