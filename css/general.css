@@ -1,13 +1,17 @@
 /* 
-    GENERAL
+   ! GENERAL
 */
 
+img {max-width: 100%;}
+
+a {text-decoration: none;}
+
 /* 
-    VARIABLES
+   ! VARIABLES
 */
 
 :root {
-    /* Color Palette */
+    /* ! Color Palette */
     
     --light_color:#FFFFFF ;
     --dark_color: #0A0A0A ;

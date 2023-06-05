@@ -1,32 +1,49 @@
+@import url('reset.css');
+@import url('general.css');
+/* 
+   ! HEADER
+*/
+
+header {width: 100%; height: 6.875rem;}
+
+.logo img {max-height: 3.125rem;}
+
+.search_bar {position: relative; width: 100%;}
+
+.search_bar input {border: .0625rem solid #C5C3C6; background-color: #e5e5e5;}
+
+.search_bar .fa-search {position: absolute; top: .625rem; left: .625rem;}
+
+.nav_icon a {margin: 0 .3125rem; color:#5b5858;}
+
+.icon-bell {color: #fd7e14;}
+
+/* ! Sidebar Section */
 
 /* 
-    HEADER
+   ! MAIN
 */
 
 
+/* ! Counter Section */
+
+
+/* ! Table Section */
+
+
+/* ! Faq Section */
+
+
+/* ! Checklist Section */
+
+
+/*  ! Chart Section */
+
 
 /* 
-    MAIN
+   ! RESPONSIVE DESIGN
 */
 
-
-
-/* 
-    FOOTER
-*/
-
-
-
-
-/* 
-   !RESPONSIVE DESIGN
-*/
-
-/* Min width 576px */
-
-@media screen and (min-width: 576px) {
-    
-}
 
 /* Min width 768px */
 
@@ -37,23 +54,5 @@
 /* Min width 992px */
 
 @media screen and (min-width: 992px) {
-    
-}
-
-/* Max width 992px */
-
-@media screen and (max-width: 992px) {
-    
-}
-
-/* Max width 768px */
-
-@media screen and (max-width: 768px) {
-    
-}
-
-/* Max width 576px */
-
-@media screen and (max-width: 576px) {
     
 }
