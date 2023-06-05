@@ -11,6 +11,10 @@
     
     --light_color:#FFFFFF ;
     --dark_color: #0A0A0A ;
-
+    --primary_color: #084B83;
+    --secondary_color: #334E58;
 }
 
+.main_section_bg {background-color: var(--primary_color);} 
+
+.sidebar_bg {background-color: var(--secondary_color);}
