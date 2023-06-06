@@ -1,14 +1,4 @@
 /* 
-   ! GENERAL
-*/
-
-img {max-width: 100%;}
-
-a {text-decoration: none;}
-
-.custom_container {width: 100%; height: calc(100vh - 4.375rem);}
-
-/* 
    ! VARIABLES
 */
 
@@ -17,10 +7,21 @@ a {text-decoration: none;}
     
     --light_color:#FFFFFF ;
     --dark_color: #0A0A0A ;
-    --primary_color: #2E34A6;
-    --secondary_color: #15038C;
+    --primary_color: #020024;
 }
 
-.main_section_bg {background-color: var(--primary_color);} 
+.main_section_bg {background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 34%, rgba(0,212,255,1) 100%);} 
 
-.sidebar_bg {background-color: var(--secondary_color);}
+.sidebar_bg {background-color: var(--primary_color);}
+
+/* 
+   ! GENERAL
+*/
+
+html {scroll-behavior: smooth;}
+
+img {max-width: 100%;}
+
+a {text-decoration: none;}
+
+.custom_container {width: 100%; height: calc(100vh - 4.375rem);}
