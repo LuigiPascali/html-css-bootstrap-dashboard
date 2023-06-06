@@ -64,7 +64,7 @@
                         <div class="search_bar">
 
                             <i class="fa fa-search"></i>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel">
 
                         </div>
 
@@ -106,15 +106,16 @@
 
         </header>
 
-        <div class="my_container d-flex">
+        <div class="custom_container d-flex">
 
-        <!-- ! Sidebar Section --> 
+            <!-- ! Sidebar Section --> 
             <div class="sidebar sidebar_bg">
+
 
                 <div class="menu_top">
                     
                     <ul class="ps-0 pt-2 text-center">
-                        <li class="my-3my-lg-0">
+                        <li class="my-3 my-lg-0">
                             <a href="#" class="p-lg-2 d-inline-block">
                                 <i class="fa-solid fa-house"></i>
                                 <span class="d-none d-lg-inline"> Home </span>
@@ -145,12 +146,344 @@
 
             </div>
 
-                <!-- ! Main Start -->
-                <main>
+            <!-- ! Main Start -->
+            <main>
+
+            <div class="container-fluid">
+
+                <section id="counter">
+
+                    <div class="row top main_section_bg">
+
+                      <div class="col-12 pt-4 mb-4 px-4 col-lg-8 py-lg-4 mb-lg-0">
+
+                        <h2 class="d-inline">Boolean</h2>
+                        <span class="badge rounded-pill sd-badge">Piano blaze</span>
+
+                        <div class="sd-row">
+                          <span class="badge rounded-pill sd-badge">3 app</span>
+                          <i class="fa-solid fa-angles-right icon-quote"></i>
+
+                          <span class="badge rounded-pill sd-badge d-none d-lg-inline"> Boolean mobile app </span>
+                          <span class="badge rounded-pill sd-badge d-none d-lg-inline"> Boolean web app </span>
+                          <span class="badge rounded-pill sd-badge d-none d-lg-inline"> Boolean blog app </span>
+
+                          <button type="button" class="btn sd-btn d-lg-none">
+                            <i class="fa-solid fa-plus icon-plus"></i>
+                          </button>
+
+                        </div> 
+
+                      </div>
+
+                      <div class="col-12 pb-4 px-4 col-lg-4 py-lg-4">
+                        <h6> Studenti online negli ultimi 30 minuti </h6>
+                        <p class="h2"> 125 </p>
+                      </div>
+   
+
+                    </div>
+
+                </section>
+
+                <div class="row mt-2">
+
+                    <div class="col-12 col-lg-8 left-column">
+
+                        <section id="table">
+
+                            <div class="title d-flex justify-content-between">
+
+                                <h3> Prossime Classi </h3>
+                                <button class="btn btn-outline-primary sd-btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                    <i class="fa-solid fa-plus icon-plus"></i>
+                                </button>
+
+                            </div>
+
+                            <!-- ! Form -->
+
+                            <div class="offcanvas offcanvas-end sd-offcanvas"tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+                                <div class="offcanvas-header">
+
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Form</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                                </div>
+
+                                <div class="offcanvas-body">
+
+                                    <form class="row g-3">
+
+                                      <div class="col-md-6">
+
+                                        <label for="exampleInputEmail1" class="form-label">Email</label>
+
+                                        <div class="input-group flex-nowrap">
+                                            
+                                          <span class="input-group-text" id="addon-wrapping">@</span>
+                                          <input type="email" class="form-control" aria-describedby="addon-wrapping">
+
+                                        </div>
+
+                                      </div>
+
+                                      <div class="col-md-6">
+
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+
+                                      </div>
+
+                                      <div class="col-12">
+
+                                        <label for="inputAddress" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="inputAddress">
+
+                                      </div>
+
+                                      <div class="col-md-6">
+                                        <label for="inputCity" class="form-label">Città</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                      </div>
+                                      
+                                      <div class="col-md-4">
+
+                                        <label for="inputState" class="form-label">Stato</label>
+                                        <select id="inputState" class="form-select">
+                                          <option selected>Scegli...</option>
+                                          <option value="1">Italia</option>
+                                          <option value="4">Francia</option>
+                                          <option value="5">Germania</option>
+                                          <option value="6">Danimarca</option>
+                                          <option value="9">Regno Unito</option>
+                                          <option value="7">Svezia</option>
+                                          <option value="8">Islanda</option>
+                                        </select>
+
+                                      </div>
+
+                                      <div class="col-md-2">
+
+                                        <label for="inputZip" class="form-label">CAP</label>
+                                        <input type="text" class="form-control" id="inputZip">
+
+                                      </div>
+
+                                      <div class="col-12 mb-3"> 
+
+                                          <label for="formFile" class="form-label">Foto</label>
+                                          <input class="form-control" type="file" id="formFile">
+
+                                      </div>
+
+                                      <div class="col-12 mb-3">
+
+                                        <div class="form-check">
+
+                                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                                          <label class="form-check-label" for="gridCheck">
+                                            Seleziona per proseguire
+                                          </label>
+
+                                        </div>
+
+                                      </div>
+
+                                      <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                        <input class="btn btn-warning" type="reset" value="Svuota">
+                                      </div>
+
+                                    </form>
+
+                                </div>
+
+                            </div>
+
+                            <!-- ! Table -->
+
+                            <div class="m-3">
+
+                                <table class="table-hover table">
+
+                                    <thead>
+
+                                        <tr>
+                                            <th class="col-lg-4 col-xxl-8" scope="col"> Nome </th>
+                                            <th class="d-none d-md-table-cell" scope="col"> Data Inizio </th>
+                                            <th class="d-none d-sm-table-cell text-uppercase" scope="col"> roi </th>
+                                            <th scope="col"> Stato </th>
+                                            <th scope="col"> Azioni </th>
+                                        </tr>
+
+                                    </thead>
+
+                                    <tbody>
+
+                                        <tr>
+                                            <td>
+                                               <span><i class="fa-solid fa-code code-icon"></i></span>
+                                                Classe 75
+                                            </td>
+                                            <td class="d-none d-md-table-cell"> 15 Feb 2021 </td>
+                                            <td class="d-none d-sm-table-cell"> 20% </td>
+                                            <td>
+                                                <span class="badge bg-success"> Done </span>
+                                            </td>
+                                            <td>
+                                                <button><i class="fa-solid fa-pencil"></i></button>
+                                                <button><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+                                                <span><i class="fa-solid fa-code code-icon"></i></span>
+                                                Classe 76
+                                            </td>
+                                            <td class="d-none d-md-table-cell"> 16 Feb 2021 </td>
+                                            <td class="d-none d-sm-table-cell"> 20% </td>
+                                            <td>
+                                                <span class="badge bg-success"> Done </span>
+                                            </td>
+                                            <td>
+                                                <button><i class="fa-solid fa-pencil"></i></button>
+                                                <button><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+                                                <span><i class="fa-solid fa-code code-icon"></i></span>
+                                                Classe 77
+                                            </td>
+
+                                            <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                                <span class="badge bg-warning">process</span>
+                                            </td>
+                                            <td>
+                                                <button><i class="fa-solid fa-pencil"></i></button>
+                                                <button><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+                                              <span><i class="fa-solid fa-code code-icon"></i></span>
+                                              Classe 78
+                                            </td>
+                                            <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                              <span class="badge bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                              <button><i class="fa-solid fa-pencil"></i></button>
+                                              <button><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+                                              <span><i class="fa-solid fa-code code-icon"></i></span>
+                                              Classe 79
+                                            </td>
+                                            <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                              <span class="badge bg-danger">failed</span>
+                                            </td>
+                                            <td>
+                                              <button><i class="fa-solid fa-pencil"></i></button>
+                                              <button><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+                                              <span><i class="fa-solid fa-code code-icon"></i></span>
+                                              Classe 80
+                                            </td>
+                                            <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                              <span class="badge bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                              <button><i class="fa-solid fa-pencil"></i></button>
+                                              <button><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+                                              <span><i class="fa-solid fa-code code-icon"></i></span>
+                                              Classe 81
+                                            </td>
+                                            <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                              <span class="badge bg-danger">failed</span>
+                                            </td>
+                                            <td>
+                                              <button><i class="fa-solid fa-pencil"></i></button>
+                                              <button><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+                                              <span><i class="fa-solid fa-code code-icon"></i></span>
+                                              Classe 82</td>
+                                            <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                              <span class="badge bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                              <button><i class="fa-solid fa-pencil"></i></button>
+                                              <button><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                        </section>
 
 
+                    </div>
 
-                </main>
+                </div>
+
+
+            </div>
+
+            </main>
+        
+
+
 
         </div>
 

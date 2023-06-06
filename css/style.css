@@ -11,11 +11,11 @@ header {width: 100%; height: 6.875rem;}
 
 .search_bar {position: relative; width: 100%;}
 
-.search_bar input {border: .0625rem solid #C5C3C6; background-color: #e5e5e5;}
+.search_bar input {border: .0625rem solid #C5C3C6; background-color: #e5e5e5; text-indent: 25px;}
 
-.search_bar .fa-search {position: absolute; top: .625rem; left: .625rem;}
+.search_bar .fa-search {position: absolute; top: .75rem; left: .75rem;}
 
-.nav_icon a {margin: 0 .3125rem; color:#5b5858;}
+.nav_icon a {margin: 0 .125rem; color:#5b5858;}
 
 .icon-bell {color: #fd7e14;}
 
@@ -39,12 +39,42 @@ header {width: 100%; height: 6.875rem;}
    ! MAIN
 */
 
+main {width: 90%; height: 100%; overflow: auto;}
 
 /* ! Counter Section */
 
+main .top {color: var(--light_color);}
+
+.sd-badge {font-size: .9rem; cursor: pointer; background-color: #155cba;}
+
+.sd-badge:hover {background-color: #2b5690;}
+
+.sd-row {margin-top: .3125rem;}
+
+.icon-quote {font-size: .9rem;}
+
+.sd-btn {font-size: 0.7rem; background-color: #155cba; color: var(--light_color); border-radius: 100%; padding: .125rem .375rem;}
+
+.sd-btn:hover {background-color: #2b5690;} 
 
 /* ! Table Section */
 
+section:not(#counter) {width: 100%; border: .0625rem solid #d3d3d3; border-radius: .3125rem; margin-bottom: 1.5rem; background-color: var(--light_color);}
+
+.title {background-color: #f7f7f7; border-bottom: .0625rem solid #e5e5e5; padding: .5rem 1rem;}
+
+.sd-btn-offcanvas:focus {box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);}
+
+.code-icon {background-color: #f26551; color: var(--light_color); border-radius: 100%; padding: .625rem .3125rem; margin-right: .3125rem;}
+
+td button {background-color: var(--light_color); border: .0625rem solid #6c757d; color: #6c757d; border-radius: .1875rem; padding: .1875rem .375rem;}
+
+td button:hover {background-color: #6c757d; color: var(--light_color);}
+
+tr td:not(tr td:first-child),
+tr th:not(tr th:first-child) {text-align: center;}
+
+td, th {font-size: 0.9rem;}
 
 /* ! Faq Section */
 
@@ -64,11 +94,11 @@ header {width: 100%; height: 6.875rem;}
 
 @media screen and (min-width: 768px) {
 
-    /* ! Sidebar Section */
+   /* ! Sidebar Section */
 
-    .sidebar {width: 10%;}
+   .sidebar {width: 10%;}
 
-    main {width: 90%;}
+   main {width: 90%;}
 
 }
 
@@ -76,13 +106,15 @@ header {width: 100%; height: 6.875rem;}
 
 @media screen and (min-width: 992px) {
     
-    /* ! Sidebar Section */
+   /* ! Sidebar Section */
 
-    .sidebar {width: 10rem;}
+   .sidebar {width: 10rem;}
 
-    .sidebar i {margin-right: .625rem;}
+   .sidebar i {margin-right: .625rem;}
 
-    main {width: calc(100% - 10rem);}
+   main {width: calc(100% - 10rem);}
+
+   .sd-offcanvas {width: 70% !important;}
 
 
 

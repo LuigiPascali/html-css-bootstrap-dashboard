@@ -6,7 +6,7 @@ img {max-width: 100%;}
 
 a {text-decoration: none;}
 
-.my_container {width: 100%; height: calc(100vh - 4.375rem);}
+.custom_container {width: 100%; height: calc(100vh - 4.375rem);}
 
 /* 
    ! VARIABLES
@@ -17,8 +17,8 @@ a {text-decoration: none;}
     
     --light_color:#FFFFFF ;
     --dark_color: #0A0A0A ;
-    --primary_color: #084B83;
-    --secondary_color: #124E78;
+    --primary_color: #2E34A6;
+    --secondary_color: #15038C;
 }
 
 .main_section_bg {background-color: var(--primary_color);} 
